@@ -24,6 +24,19 @@ public class Task1 {
                     count++;
                 }
             }
+            String[] shortArr = new String[count];
+            int index = 0;
+            for (String str : arr) {
+                if (str.length() <= 3) {
+                    shortArr[index] = str;
+                    index++;
+                }
+            }
+
+            System.out.println("Вывод: ");
+            for (String string : shortArr) {
+                System.out.println(string);
+            }
 
 
 
