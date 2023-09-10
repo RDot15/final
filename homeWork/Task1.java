@@ -18,6 +18,13 @@ public class Task1 {
             }
             scanner.close();
 
+            int count = 0;
+            for (String str: arr) {
+                if (str.length() <= 3) {
+                    count++;
+                }
+            }
+
 
 
         }
